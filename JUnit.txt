@@ -1,0 +1,23 @@
+Suma (3,3)
+Valor esperado - Valor actual
+6              - 6
+
+
+Assertions:
+
+assertEqueals = Evaluar valor esperado con valor actual / assertEquals(8,result);
+assertTrue = Valida que tenga un verdadero / assertTrue(result > 8);
+assertFalse = Valida que tenga un falso / assertTrue(result > 8);
+assertNotNull= Valida que el resultado no sea nulo / assertNotNull(result);
+assertInstanceOf= Valida que el resultado sea de un tipo / assertInstanceOf(Integer.class,result);
+assertThrows= Sirve para validar exceptions, esperando un fallo / assertThrows()
+
+Jacoco:
+
+Se utiliza para medir la covertura de nuestros test
+
+Verde: Esta cubierto por test
+Amarillo: Parcialmente cubierto
+Rojo: No esta cubierto
+
+
